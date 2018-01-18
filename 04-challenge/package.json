@@ -1,0 +1,15 @@
+{
+  "name": "04-challenge",
+  "version": "1.0.0",
+  "description": "Whiteboard Challenge 04",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.15.0",
+    "jest": "^22.1.3"
+  }
+}
