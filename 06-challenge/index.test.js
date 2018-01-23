@@ -11,8 +11,10 @@ describe('loop module', function() {
         expect(recurse.loop(-13)).toEqual('error');
     });
     it('should recursively callback 10 times', () => {
-        // console.log(recurse.loop(10));
-        expect(recurse.loop(10)).toBeUndefined();
+        let iteration = 1;
+        recurse.loop(10);
+        console.log(iteration);
+        expect(iteration).toEqual(10);
     });
 });
 
