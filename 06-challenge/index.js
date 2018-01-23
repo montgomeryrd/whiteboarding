@@ -2,17 +2,17 @@
 
 const recurse = module.exports = {};
 
-let iteration = 0;
+let iteration = 1;
 
 recurse.loop = function(count, callback) {
     if(count < 0) {
         return 'error';
     } else if (count === 0) {
         return null;
-    } else if (iteration < count){
+    } else if (iteration <= count){
         iteration++;
         console.log(iteration);
-        return loop(count, callback);
+        return callback();
     }
 };
 
