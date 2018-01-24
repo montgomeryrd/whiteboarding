@@ -13,7 +13,7 @@ describe('solution', function(){
         expect(intersect([], ["toga", "panda"])).toEqual(null);
     });
     it('should take in two arrays and return intersecting values', () => {
-            expect(intersect(["kidnapped", "by", "danger"],["muffin", "top"])).toEqual(null);
+        expect(intersect(["kidnapped", "by", "danger"],["muffin", "top"])).toEqual(null);
     });
 });
 
