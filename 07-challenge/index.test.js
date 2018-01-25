@@ -21,7 +21,7 @@ describe('Type Of module', () => {
         it('should check if list2 is linear', () => {
             expect(typeOf.list(list2)).toBe(false);            
         });
-        it('should return true if list1 is circular', () => {
+        it('should return true if list is circular', () => { //I can't figure out this one.
             expect(typeOf.list(list1)).toBe(true);
         });
     });
