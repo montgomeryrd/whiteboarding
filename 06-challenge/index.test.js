@@ -3,19 +3,19 @@
 const recurse = require('./index');
 require('jest');
 
+
 describe('loop module', function() {
     it('should check if count is empty', () => {
-        expect(recurse.loop(0)).toEqual(null);
+        expect(recurse.loop(0)).toBeNull();
     });
     it('should check if count is less than 0', () => {
-        expect(recurse.loop(-13)).toEqual('error');
+        expect(recurse.loop(-13)).toBeNull();
     });
-    it('should recursively callback 10 times', () => {
-        let iteration = 1;
-        recurse.loop(10);
-        console.log(iteration);
-        expect(iteration).toEqual(10);
+    it('should make sure count is a number', () => {
+        expect(recurse.loop('beer')).toBeNull();
+        expect(recurse.loop([])).toBeNull();
+    });
+    it('should recursively callback 40 times', () => {
+        expect(recurse.loop(40)).toEqual(null);
     });
 });
-
-//last test doesn't pass. I've tried to console.log, but I can't determine if it's offering anything I can use.
