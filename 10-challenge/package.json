@@ -1,0 +1,20 @@
+{
+  "name": "10-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "problem-one.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
+    "jest": "^22.1.4"
+  }
+}
