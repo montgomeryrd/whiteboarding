@@ -1,0 +1,19 @@
+{
+  "name": "11-challenge",
+  "version": "1.0.0",
+  "description": "Complete today's whiteboard challenge and follow the submission instructions below:",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint ."
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.1.4"
+  }
+}
