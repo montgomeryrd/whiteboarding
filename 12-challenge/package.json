@@ -1,0 +1,19 @@
+{
+  "name": "12-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.1"
+  },
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
