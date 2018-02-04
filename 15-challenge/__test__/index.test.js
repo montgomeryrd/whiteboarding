@@ -12,10 +12,10 @@ describe('#wb.folks', () => {
     it('should return an error', () => {
         expect(wb.folks()).toBeInstanceOf(Error);
         expect(wb.folks('carrot sticks')).toBeInstanceOf(Error);
-        expect(groot).toBeInstanceOf(Kary);
     });
     
     it('should return an array of parents', () => {
+        expect(groot).toBeInstanceOf(Kary);
  
         groot.insert(10, 5);
         groot.insert(30, 10);
@@ -23,11 +23,11 @@ describe('#wb.folks', () => {
         groot.insert(50, 5);
         groot.insert(70, 50);
 
-        console.log(wb.folks(groot));
-        console.log('log: ', groot);
-          
-
-        expect(test).toEqual('[ {val:3, children: [] }, {val:2, children: []}]');
+        let answer = wb.folks(groot);
+        
+        expect(groot).toEqual({'root': {'children': [{'children': [], 'val': 30}, {'children': [], 'val': 40}], 'val': 10}});
+        expect(test).toEqual([ {val:3, children: [] }, {val:2, children: []}]);
+        expect(answer.length).toBe(2);
     });
 });
 
