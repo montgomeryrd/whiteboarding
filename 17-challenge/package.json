@@ -1,0 +1,20 @@
+{
+  "name": "17-challenge",
+  "version": "1.0.0",
+  "description": "WhiteBoard Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Whiteboarding"
+  },
+  "author": "Richard Montgomery",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.1.4"
+  }
+}
