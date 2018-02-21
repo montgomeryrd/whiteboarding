@@ -1,0 +1,20 @@
+{
+  "name": "27-challenge",
+  "version": "1.0.0",
+  "description": "27-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "montgomeryrd"
+  },
+  "author": "Richard Montgomery",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.0"
+  }
+}
