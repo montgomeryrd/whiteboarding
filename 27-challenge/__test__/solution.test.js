@@ -1,6 +1,6 @@
 'use strict';
 
-const wb = require('../index');
+const wb = require('../solution');
 require('jest');
 
 
