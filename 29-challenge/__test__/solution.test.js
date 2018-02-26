@@ -21,9 +21,9 @@ describe('wb.anagrams', () => {
         let array3 = ['ball', 'santa', 'pochahontus'];
 
         it('should do its thing with your valid input, returning valid results', () => {
-            expect(wb.anagrams(array1)).toBe([ 'star', 'tars', 'arts', 'rats', 'tsar', 'potato', 'war', 'raw' ]);
-            expect(wb.anagrams(array2)).toBe([ 'bear', 'bare', 'pat', 'tap', 'apt', 'christmas' ]);
-            expect(wb.anagrams(array3)).toBe([ 'ball', 'santa', 'pochahontus' ]);
+            expect(wb.anagrams(array1)).toEqual([ 'star', 'tars', 'arts', 'rats', 'tsar', 'potato', 'war', 'raw' ]);
+            expect(wb.anagrams(array2)).toEqual([ 'bear', 'bare', 'pat', 'tap', 'apt', 'christmas' ]);
+            expect(wb.anagrams(array3)).toEqual([ 'ball', 'santa', 'pochahontus' ]);
         });
     });
 });

@@ -1,6 +1,6 @@
 'use strict';
 
-const wb = module.export = {};
+const wb = module.exports = {};
 
 wb.anagrams = function(array) {
 
