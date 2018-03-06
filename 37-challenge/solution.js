@@ -26,3 +26,19 @@ wb.solution = function(binaryTree){
     }
     return SLL;
 };
+
+// function listFromTree(tree) {
+//     if(!tree.root) throw new Error("Some stuff");
+//     let list = new SinglyLinkedList();
+
+//     function _buildList(node) {
+
+//         if(!node) return;
+//         let {left, right} = node;
+
+//         if(left) _buildList(left);
+//         list.insertEnd(node.val);
+//         if(right) _buildList(right);
+//     }
+//     _buildList(tree.root);
+// };
